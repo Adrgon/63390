@@ -10,7 +10,6 @@ export default function Item({product}) {
             <p>{product.description}</p>
             <Link to={`/detail/${product.id}`} className="btn btn-primary">Ver detalle</Link>
         </div>
-
     </div>
   )
 }
